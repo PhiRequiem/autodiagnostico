@@ -1,0 +1,390 @@
+{
+    "message": "Comunicação digital para a comunicação de nossas lutas, movimentos, trabalhos jornalísticos",
+    "nav": {
+        "_comment": "Menu principal (Menu.vue)",
+        "about": "Sobre este projeto",
+        "language": "Idioma",
+        "help_translate": "Ajude a traduzir"
+    },
+    "hello": {
+        "_comment": "Módulo inicial (Hello.vue)",
+        "title": "Que Mercúrio retrógrado não afete as suas comunicações digitais!",
+        "text": "<p> Responda a este teste e descubra cuidados que você pode incorporar nas ações de comunicação online de sua organização, mídia ou coletivx. </p> <p> Este teste contém perguntas sobre seus dispositivos, sobre como você gerencia suas contas, aplicativos e plataformas na Internet, bem como a sua informação e a da sua comunidade. No final, convidamos você a se inscrever no desafio semanal e receber em seu e-mail atividades para continuar explorando juntos. </p>",
+        "acction_button": "Ir ao teste",
+        "alt_imagen": "Adivinhe a segurança digital"
+    },
+    "about": {
+        "_comment": "Créditos e essas coisas (AboutUs.vue)",
+        "title": "Feito com ❤",
+        "text": "Um projeto @SeguDigital desenvolvido com o apoio da Internews.",
+        "credits": [
+            {
+                "name": "SeguDigital",
+                "url": "https://twitter.com/segudigital",
+                "img": "https://segudigital.org/media/segudigital-circulo.svg"
+            },
+            {
+                "name": "Internews",
+                "url": "https://twitter.com/Internews",
+                "img": "https://internews.org/themes/incendio/logo.svg"
+            }
+        ],
+        "sub_text": ""
+    },
+    "quiz": {
+        "_comment": "Seção geral do Quizz (Quiz.vue, QuizLoader.vue, QuizResults.vue)",
+        "alt_imagen": "Cartas de tarô",
+        "title_results": "As cartas dizem que sua sorte em segurança digital é:",
+        "text_results": "Selecione cada uma das cartas a seguir para ver qual é sua sorte em seus dispositivos, suas contas e suas informações. Seja qual for a mensagem que elas têm para você, lembre-se de que você pode caminhar em direção a um futuro onde seus cuidados pessoais de segurança digital e os de sua comunidade, meio ou organização estejam em sintonia. Mantenha sua energia para ter sucesso!",
+        "button_recomendations": "Veja as recomendações",
+        "score": "Pontuação"
+    },
+    "reto_form": {
+        "_comment": "Caixa de registro no boletim Digital Security Challenge (RetoForm.vue)",
+        "title_challenge": "Se inscreva! Receba um desafio semanal de segurança digital",
+        "text_challenge": "Se você deseja melhorar sua sorte em segurança digital, recomendamos que você participe do desafio semanal. A cada semana enviaremos uma nova atividade, guia ou conteúdo para que você possa explorar, adotar novas medidas e configurá-las de acordo com sua preferência. O desafio semanal oferece a oportunidade de seguir em seu próprio ritmo, no caminho para práticas digitais mais seguras.",
+        "button_challenge": "Junte-se ao desafio",
+        "input_challenge": "Endereço eletrônico"
+    },
+    "quiz_items": [
+        {
+            "category": "Dispositivos",
+            "text_result_good": "Você dominou os fundamentos da segurança do dispositivo. Não baixe a guarda!",
+            "text_result_medium": "Você está seguindo um bom caminho. Continue construindo práticas mais seguras.",
+            "text_result_bad": "Para que nada perturbe sua paz, recupere o poder sobre seus dispositivos.",
+            "text_result_default": "Recipientes de informações, segredos e esforços, nossos dispositivos requerem nossa atenção além das notificações, para protegê-los de forças externas que queiram violá-los.",
+            "color": "#ff0000",
+            "questions": [
+                {
+                    "text": "Você tem a senha de acesso ativada nos dispositivos que usa para comunicação?",
+                    "description": "",
+                    "error_text": "Seus dispositivos são a porta de entrada para suas redes sociais, contatos, fotos, e-mail e muito mais... Proteja-os! Ative uma senha. Se você não sabe qual de todas as opções escolher, a <a href='https://r3d.mx/2020/01/07/6-propositos-para-mejorar-tu-seguridad-digital-en-2020/' target='_blank '> R3D </a> tem algumas sugestões.",
+                    "url_resource": "https://segudigital.org",
+                    "responses": [
+                        {
+                            "text": "Não"
+                        },
+                        {
+                            "text": "Sim",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "text": "Você tem antivírus em seus dispositivos? ",
+                    "description": "",
+                    "error_text": "Recomendamos que você baixe um desses programas antivírus gratuitos em seu computador e telefone: <a href='https://www.avg.com' target='_blank'> AVG </a> ou <a href = 'https: //www.avira.com/ 'target =' _ blank '> AVIRA </a>. Cuidado! Não é recomendado ter mais de um antivírus em seus dispositivos, pois eles podem atrapalhar seu trabalho.",
+                    "url_resource": "https://protege.la/antivirus-avg",
+                    "responses": [
+                        {
+                            "text": "Sim",
+                            "correct": true
+                        },
+                        {
+                            "text": "Não"
+                        },
+                        {
+                            "text": "Sim, tenho até dois! 🙈"
+                        }
+                    ]
+                },
+                {
+                    "text": "Seu telefone e computador estão criptografados?",
+                    "description": "",
+                    "error_text": "Considere criptografar seus dispositivos e equipamentos de informática para proteger suas informações de intrusos. Ei, será muito mais fácil do que você pensa ;) Explicaremos como fazer.",
+                    "url_resource": "https://segudigital.org/que-hago-para-cifrar-mis-dispositivos",
+                    "responses": [
+                        {
+                            "text": "Sim",
+                            "correct": true
+                        },
+                        {
+                            "text": "Não"
+                        },
+                        {
+                            "text": "Não sei 🤔"
+                        }
+                    ]
+                },
+                {
+                    "text": "Você conecta seu telefone via USB a algum equipamento de informática ou carregadores públicos?",
+                    "description": "",
+                    "error_text": "Olhe! Não arrisque seu dispositivo a uma infecção. Mentes Ambulantes te explicam como fazer um preservativo USB para que você possa usar carregadores públicos e certifique-se de passar apenas corrente elétrica e nenhum dado.",
+                    "url_resource": "https://segudigital.org/fanzine-condon-digital-para-celular/",
+                    "responses": [
+                        {
+                            "text": "Não",
+                            "correct": true
+                        },
+                        {
+                            "text": "Sim"
+                        }
+                    ]
+                },
+                {
+                    "text": "Você se conecta em locais públicos onde oferecem wi-fi gratuito, como cafés, terminais ou aeroportos, parques?",
+                    "description": "",
+                    "error_text": "Baixe o VPN Riseup, ligue-o e use-o enquanto navega na internet. É grátis! Ele protegerá seus dados enquanto você se conecta a redes Wi-Fi públicas, para que ninguém possa espionar você.",
+                    "url_resource": "https://riseup.net/pt/vpn",
+                    "responses": [
+                        {
+                            "text": "Sim"
+                        },
+                        {
+                            "text": "Sim, mas com VPN 😉",
+                            "correct": true
+                        },
+                        {
+                            "text": "Não"
+                        }
+                    ]
+                },
+                {
+                    "text": "Você mantém um registro de incidentes ou coisas estranhas que acontecem em seus dispositivos ou contas?",
+                    "description": "",
+                    "error_text": "Manter um registro de incidentes digitais ajuda a identificar padrões e agressores, prevenir ataques, mitigar seu impacto e informar as medidas de segurança que você pode tomar.",
+                    "url_resource": "https://seguridad-digital.org/por-que-y-como-registrar-y-documentar-incidentes/",
+                    "responses": [
+                        {
+                            "text": "Sim",
+                            "correct": true
+                        },
+                        {
+                            "text": "Não"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Gerenciamento de contas",
+            "text_result_good": "Continue assim! O horizonte planetário de hoje diz que você está em um excelente caminho!",
+            "text_result_medium": "Você precisa de uma dose extra de entusiasmo com a segurança cibernética, você está quase lá!",
+            "text_result_bad": "Evite problemas com suas contas, comece a trabalhar na segurança",
+            "text_result_default": "Sejam janelas para olhar, prateleiras para mostrar nossas causas ou espelhos para nos contemplarmos, as recomendações a seguir o guiarão para administrar suas contas com mais segurança e manter a harmonia em seus espaços e em sua comunidade.",
+            "color": "#00ff00",
+            "questions": [
+                {
+                    "text": "Você baixa aplicativos para fazer desenhos, gravar áudio, gerenciar redes sociais... ou outras atividades?",
+                    "description": "",
+                    "error_text": "Milhares e milhares de aplicativos a apenas um clique de distância! Mas cuidado, ainda é muito importante revisar quais aplicativos estamos baixando. Aqui você encontrará perguntas e algumas ações simples para saber como selecioná-las.",
+                    "url_resource": "https://segudigital.org/escogiendo-apps-para-descargar-en-tus-dispositivos/",
+                    "responses": [
+                        {
+                            "text": "Sim"
+                        },
+                        {
+                            "text": "Não",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "text": "Você usa a mesma senha para todas as contas de e-mail, redes sociais, aplicativos e serviços na internet?",
+                    "description": "",
+                    "error_text": "As plataformas que usamos na internet frequentemente enfrentam ataques que expõem nossas contas e senhas de acesso. Vá para <a href='https://haveibeenpwned.com/' target='_blank'> Have I been pwned </a> e verifique se o e-mail com o qual você entra em suas contas já foi exposto. Nesse caso, hoje é um bom dia para alterar suas senhas!",
+                    "url_resource": "https://haveibeenpwned.com/ ",
+                    "responses": [
+                        {
+                            "text": "Sim"
+                        },
+                        {
+                            "text": "Não",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "text": "Você usa um gerenciador de senhas?",
+                    "description": "",
+                    "error_text": "<a href='https://infoactivismo.org/que-es-un-gestor-de-contrasenas-y-para-que-serve/' target='_blank'> Infoactivismo </a> te explica por que e como usar um gerenciador de senhas, bem como recomendar quais usar.",
+                    "url_resource": "https://infoactivismo.org/que-es-un-gestor-de-contrasenas-y-para-que-sirve/",
+                    "responses": [
+                        {
+                            "text": "Sim",
+                            "correct": true
+                        },
+                        {
+                            "text": "Não"
+                        }
+                    ]
+                },
+                {
+                    "text": "Você é a única pessoa que tem acesso às contas das redes sociais, site, newsletter eletrônica e outros serviços online da comunidade, meio ou organização?",
+                    "description": "",
+                    "error_text": "Vamos encontrar um meio-termo! Recomendamos que pelo menos mais uma pessoa da organização também tenha acesso às contas, sem presumir que todas as pessoas as tenham. Agora, como alteramos as senhas com frequência e nos certificamos de que outra pessoa também as tenha? Você pode testar de várias maneiras, existem organizações que usam um chaveiro online como <a href='https://lastpass.com/' target='_blank'> LastPass </a> por exemplo.",
+                    "url_resource": "https://lastpass.com/",
+                    "responses": [
+                        {
+                            "text": "Sim"
+                        },
+                        {
+                            "text": "Não, há outra pessoa que os tem também",
+                            "correct": true
+                        },
+                        {
+                            "text": "Não, todos temos acesso a tudo 👯‍♀️👯‍♂️"
+                        }
+                    ]
+                },
+                {
+                    "text": "Quando você troca senhas de contas, você o faz por meio de um chat ou e-mail criptografado?",
+                    "description": "",
+                    "error_text": "Baixe o Signal e use-o com seus colegas para trocar informações como senhas de acesso à conta e links para documentos. Que nem tudo esteja no WhatsApp!",
+                    "url_resource": "https://signal.org/",
+                    "responses": [
+                        {
+                            "text": "Sim",
+                            "correct": true
+                        },
+                        {
+                            "text": "Não"
+                        },
+                        {
+                            "text": "Não sei 🤔"
+                        }
+                    ]
+                },
+                {
+                    "text": "Você tem a verificação em duas etapas ativada em suas contas?",
+                    "description": "",
+                    "error_text": "Este guia de <a href='https://informaterompeelmiedo.mx/' target='_blank'> Red Rompe el Fiedo </a> explica como funciona a verificação em duas etapas e como configurá-la em suas contas. Recomendamos usar o aplicativo <a href='https://authy.com/' target='_blank'> Authy </a> para gerar seus códigos de verificação.",
+                    "url_resource": "https://segudigital.org/rana/2020/06/Qué-es-la-verificación-de-dos-pasos-y-por-qué-es-importante.png",
+                    "responses": [
+                        {
+                            "text": "Não"
+                        },
+                        {
+                            "text": "Sim",
+                            "correct": true
+                        },
+                        {
+                            "text": "Não sei 🤔"
+                        }
+                    ]
+                },
+                {
+                    "text": "Seu site tem proteção contra ataques DDoS?",
+                    "description": "",
+                    "error_text": "Confira este <a href='https://protege.la/deflect-guia-rapida/' target='_blank'> guia de Protege.la </a> sobre a proteção de páginas da web contra ataques DDoS. Esta <a href='https://cyber-women.com/es/activismo-online-m%C3%A1s-seguro/sites-web-m%C3%A1s-seguros/' target='_blank'> sessão de Cibermulheres </a> também o ajudará a começar sua reflexão sobre sites mais seguros.",
+                    "url_resource": "https://protege.la/deflect-guia-rapida/",
+                    "responses": [
+                        {
+                            "text": "Não sei 🤔"
+                        },
+                        {
+                            "text": "Sim",
+                            "correct": true
+                        },
+                        {
+                            "text": "Não"
+                        }
+                    ]
+                },
+                {
+                    "text": "Sua página tem httpS em vez de apenas http?",
+                    "description": "",
+                    "error_text": "Neste <a href='https://web.karisma.org.co/wp-content/uploads/2016/02/cartilla_3_genios.jpg' target='_blank'>infográfico Genios de Internet </a> nos explicam a importância de navegar usando https. Se você ainda não tem este certificado em seu site, com a ajuda do <a href='https://certbot.eff.org/' target='_blank'> Certbot </a> você pode obtê-lo gratuitamente. Assim, você ajuda sua comunidade a navegar em seu site com mais segurança.",
+                    "url_resource": "https://web.karisma.org.co/wp-content/uploads/2016/02/cartilla_3_genios.jpg",
+                    "responses": [
+                        {
+                            "text": "Sim",
+                            "correct": true
+                        },
+                        {
+                            "text": "Não"
+                        },
+                        {
+                            "text": "Não sei 🤔"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Gestão da informação",
+            "text_result_good": "Você está em um bom ciclo de segurança digital. Continue com todas as suas práticas. Sempre há mais para aprender!",
+            "text_result_medium": "As práticas de segurança digital devem ser cultivadas. Continue avançando!",
+            "text_result_bad": "Preste atenção à sua intuição, agir o ajudará a prevenir falhas futuras.",
+            "text_result_default": "Conhecer você na comunidade e pensar em suas medidas de segurança digital como um cuidado em grupo e o que suas decisões podem significar para os outros é importante, especialmente nesta época em que continuamos nos voltando para o universo digital.",
+            "color": "#00ff00",
+            "questions": [
+                {
+                    "text": "Você faz backups frequentes de suas fotos, vídeos e documentos?",
+                    "description": "",
+                    "error_text": "Recomendamos que você leia o capítulo sobre <a href='https://seguridadparadefender.org/sites/seguridadparadefender.org/files/2009SeguridadDigital_FrontLineDefenders.pdf' target='_blank'> Cópias de backup </a> do Manual de Segurança e Privacidade Frontline Defenders Digital for Defenders (páginas 28-29) para começar a planejar seus backups. Lembre-se, ninguém sabe o que você tem até... você perder aquele arquivo!",
+                    "url_resource": "https://seguridadparadefender.org/sites/seguridadparadefender.org/files/2009SeguridadDigital_FrontLineDefenders.pdf",
+                    "responses": [
+                        {
+                            "text": "Não"
+                        },
+                        {
+                            "text": "Sim",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "text": "As informações sensíveis em seus backups são criptografadas?",
+                    "description": "Fazer backup fisicamente ou online? Este <a href='https://securityinabox.org/pt/guide/physical/' target='_blank'> Guia de Security in a box </a> ajudará você a analisar as ameaças enfrentadas por suas informações. Desta forma, você pode identificar o melhor local para armazenar seus backups com informações \"sensíveis\". <a href='https://segudigital.org/en- encryption- backups-and-physical/' target='_blank'> Aqui </a> dicas para criptografar seus backups físicos ou online. ",
+                    "error_text": "",
+                    "url_resource": "https://segudigital.org/respaldos-cifrados-en-linea-y-en-fisico/",
+                    "responses": [
+                        {
+                            "text": "Sim",
+                            "correct": true
+                        },
+                        {
+                            "text": "Não"
+                        }
+                    ]
+                },
+                {
+                    "text": "Você tem backups de fotos e vídeos que publica em redes sociais comerciais como Facebook, YouTube..?",
+                    "description": "",
+                    "error_text": "As redes sociais não devem ser seu backup ou backup de informações! Coletivos, defensores e a mídia enfrentam a censura de seu conteúdo com muita frequência. Evite perder seus registros audiovisuais, mantendo um backup atualizado desses arquivos.",
+                    "url_resource": "https://protege.la/como-empezar-a-hacer-respaldos-de-tu-informacion/",
+                    "responses": [
+                        {
+                            "text": "Sim",
+                            "correct": true
+                        },
+                        {
+                            "text": "Não"
+                        }
+                    ]
+                },
+                {
+                    "text": "Suas contas de mídia social, publicações ou vídeos foram censurados no Facebook, Twitter, Youtube..?",
+                    "description": "",
+                    "error_text": "Defensores de direitos humanos, organizações, coletivos e jornalistas frequentemente enfrentam censura em plataformas comerciais, seu conteúdo e suas páginas ou perfis de mídia social. Aqui você encontrará algumas iniciativas que registram a censura e algumas ações a serem tomadas se isso acontecer com você.",
+                    "url_resource": "https://segudigital.org/censura-en-plataformas-de-redes-sociales-comerciales/ ",
+                    "responses": [
+                        {
+                            "text": "Sim"
+                        },
+                        {
+                            "text": "Não",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "text": "Quando você faz entrevistas, transmissões ao vivo, vídeos ou fotografias, considera obter o consentimento informado das pessoas que estão sendo retratadas?",
+                    "description": "",
+                    "error_text": "Dê uma olhada nestes guias do WITNESS para aprender com o <a href='https://es.witness.org/portfolio_page/get-informed-consent/' target='_blank'> consentimento informado </a> e <a href = 'https: //es.witness.org/portfolio_page/realizar-entrevistas-con-identidad-protegida/' target = '_ blank'> proteger a identidade das pessoas </a> ao realizar projetos audiovisuais.",
+                    "url_resource": "https://es.witness.org/portfolio_page/obtener-consentimiento-informado/",
+                    "responses": [
+                        {
+                            "text": "Não",
+                            "correct": true
+                        },
+                        {
+                            "text": "Sim"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
